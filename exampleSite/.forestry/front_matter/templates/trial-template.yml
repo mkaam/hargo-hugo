@@ -1,4 +1,18 @@
 ---
 label: Trial Template
 hide_body: true
-fields: []
+fields:
+- name: header
+  type: text
+  config:
+    required: false
+  label: Header
+- name: detail
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Detail
